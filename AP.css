@@ -1,0 +1,344 @@
+body {
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    padding-top: 0px;
+    margin: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr 2fr;
+
+}
+.link {
+    text-decoration: none;
+    color: var(--white);
+    transition: border-bottom 0.2s;
+  }
+.link:hover {
+    color: #0080ff;
+    border-bottom: 2px solid #0080ff;
+  }
+  .link:active {
+    color: #ff97d0;
+    border-bottom: 2px solid #ff97d0;
+  }
+.mainhead {
+    background-color: #0f171e;
+    padding: 15px 0px;
+   
+}
+
+#midhead {
+    list-style-type: none;
+}
+
+.mainhead .brand {
+    background: url('https://i.postimg.cc/BnWBVtY4/download.png') no-repeat center center transparent;
+    height: 40px;
+    width: 168px;
+    display: block;
+    text-indent: -9999px;
+    background-size: 120px;
+}
+
+.mainheader {
+    float: right;
+    padding-right: 11px;
+}
+
+.mainheader {
+    display: flex;
+}
+
+.mainheader {
+    float: left;
+    padding-right: 11px;
+}
+
+.mainheader {
+    display: flex;
+}
+
+#midhead .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#midhead .dropdown-menu {
+    width: 150px;
+    background-color: #252e39;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#midhead .dropdown-menu ul {
+    float: none;
+    padding-left: 0px;
+    min-width: 150px;
+}
+
+#midhead .dropdown-menu li ul li {
+    border-left: 1px solid #0f171e;
+}
+
+#midhead .dropdown-menu li ul li {
+    list-style-type: none;
+}
+
+#midhead .dropdown-menu li ul li a {
+    color: #c4cacf;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+#midhead .dropdown-menu li ul li a:hover {
+    background-color: #566b84;
+}
+
+.dropdown .sign a {
+    padding-right: 15px;
+    list-style-type: none;
+}
+
+.dropdown a {
+    padding: 3px 34px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    right: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.mainhead .dropdown-menu {
+    width: 605px;
+    background-color: #252e39;
+}
+
+.mainhead .dropdown-menu ul {
+    float: left;
+    padding-left: 0px;
+    min-width: 150px;
+}
+
+.mainhead .dropdown-menu li ul ul {
+    border-left: 1px solid #0f171e;
+}
+
+.mainhead .dropdown-menu li ul li {
+    list-style-type: none;
+}
+
+.mainhead .dropdown-menu li ul li a {
+    color: #c4cacf;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.mainhead .navbar li a {
+    font-size: 17px;
+}
+
+.mainhead .dropdown-menu li ul li a:hover {
+    background-color: #566b84;
+}
+
+.welcomepage {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.welcomepage {
+    background-image: linear-gradient(to right, #000 30%, transparent 58%), url("https://www.newsjoo.in/images/amazon-prime-movies-video-tv-shows.jpg");
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 550px;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 0fr 2fr;
+}
+
+.btn {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    background-color: rgb(61, 222, 222);
+}
+
+.btn:hover {
+    background-color: rgb(0, 190, 190);
+    cursor: pointer;
+}
+
+.weltext {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.weltext h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 24px;
+
+}
+
+.rent .btn {
+    margin-right: 170px;
+}
+
+.button {
+    padding-top: 40px;
+}
+
+.button .btn {
+    height: 55px;
+    border-radius: 0px;
+    font-size: 17px;
+}
+
+.contains {
+    padding-top: 200px;
+    padding-right: 50px;
+}
+
+.next {
+    background-image: linear-gradient(to left, #000 35%, transparent 58%), url('https://www.pazuvideo.com/tips/wp-content/uploads/2023/06/QQ20230619-112605.png');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 680px;
+}
+
+.rent h1 {
+    padding-right: 100px;
+}
+
+.rent h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.next {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.memberimage img {
+    width: 100%;
+    height: 550px;
+    opacity: 20%;
+}
+
+.memberimage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.remote {
+    background-image: linear-gradient(to right, #000 15%, transparent 58%), url('https://s.yimg.com/os/creatr-uploaded-images/2020-05/59eb99e0-8bdc-11ea-b7ff-8db30759be99');
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 500px;
+
+}
+
+.maincont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.firetext h1 {
+    padding-bottom: 20px;
+}
+
+.firetext p {
+    padding-bottom: 40px;
+}
+
+.family {
+    background: url('https://i.postimg.cc/0j2BrrgL/banner-remote-right.jpg') no-repeat top right transparent;
+    min-height: 575px;
+}
+
+.famcont {
+    display: grid;
+    grid-template-columns: 1fr 0fr 2fr;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+
+.ftext h1 {
+    padding-bottom: 20px;
+}
+
+.ftext h4 {
+    padding-bottom: 30px;
+}
+
+.footer img {
+    display: inline-block;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #101010;
+}
+.footcontainer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 2fr 3fr;
+}
+.footer p span {
+    color: white;
+}
